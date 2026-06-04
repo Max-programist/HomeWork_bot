@@ -1,4 +1,4 @@
-const long long ADMIN_ID = 6925369679;
+const long long ADMIN_ID = ;
 
 #include <stdio.h>
 #include <tgbot/tgbot.h>
