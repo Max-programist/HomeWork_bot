@@ -100,7 +100,7 @@ int main() {
 
 
 
-    TgBot::Bot bot("8609775636:AAG3saJzVk8JB65e7HslvAj2PKqE_Kckn4Q");
+    TgBot::Bot bot("");
     bot.getEvents().onCommand("start", [&bot](TgBot::Message::Ptr message) {
         int userId = message->chat->id;
         std::string username = message->chat->username;
